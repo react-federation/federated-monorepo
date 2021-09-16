@@ -10,7 +10,7 @@ import './styles/main.scss'
 import Routes from 'components/routes'
 
 const Layout = createDynamicComponent({
-  url: 'http://localhost:3001/crypto-layout.js',
+  url: 'https://dreamy-wescoff-2993eb.netlify.app/crypto-layout.js',
   module: 'crypto_app_layout',
   scope: 'default_namespace'
 })

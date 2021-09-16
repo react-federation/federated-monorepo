@@ -9,7 +9,7 @@ const Index = createDynamicComponent({
 })
 
 const Crypto = createDynamicComponent({
-  url: 'http://localhost:3000/cryptos_frontend.js',
+  url: 'https://federated-monorepo.vercel.app/cryptos_frontend.js',
   module: 'crypto_app',
   scope: 'default_namespace'
 })
