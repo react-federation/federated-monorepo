@@ -1,6 +1,6 @@
 import CryptoPage from 'pages/cryptos'
 import CurrencyDetail from 'pages/detail'
-import { RouteProps } from 'react-router'
+import { RouteProps } from 'react-router-dom'
 
 const routes: RouteProps[] = [
   {

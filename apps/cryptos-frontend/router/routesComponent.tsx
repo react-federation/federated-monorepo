@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Route, Switch } from 'react-router'
+import { Route, Switch } from 'react-router-dom'
 import { nanoid } from 'nanoid'
 
 import routes from './routes'
