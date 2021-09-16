@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceFormatter should match snapshot 1`] = `
+<DocumentFragment>
+  <p
+    class="chakra-text emotion-0"
+  >
+    USD 1,000
+  </p>
+</DocumentFragment>
+`;
+
+exports[`RenderIcon should match snapshot 1`] = `
+<DocumentFragment>
+  <img
+    src="http://image.test/logo.jpeg"
+    width="24px"
+  />
+</DocumentFragment>
+`;
+
+exports[`RenderLink should match snapshot 1`] = `
+<DocumentFragment>
+  <a
+    href="//btc"
+  >
+    1000
+  </a>
+</DocumentFragment>
+`;

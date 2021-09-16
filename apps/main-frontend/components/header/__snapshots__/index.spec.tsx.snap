@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background-color: purple.100;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+<header
+    class="emotion-0"
+  >
+    <div
+      class="container emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <a
+          href="/"
+        >
+          <h2
+            class="chakra-heading emotion-2"
+          >
+            Cryptos ✨🤑
+          </h2>
+        </a>
+      </div>
+      <a
+        href="/cryptos"
+      >
+        Cryptos price
+      </a>
+    </div>
+  </header>
+</DocumentFragment>
+`;

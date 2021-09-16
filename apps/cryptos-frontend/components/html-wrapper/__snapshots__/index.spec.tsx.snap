@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HtmlWrapper should match snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+
+.emotion-0 a {
+  font-weight: 600;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<section
+    class="emotion-0"
+  />
+</DocumentFragment>
+`;

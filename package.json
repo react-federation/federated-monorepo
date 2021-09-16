@@ -1,0 +1,16 @@
+{
+  "name": "module-federation-monorepo",
+  "version": "1.0.0",
+  "description": "A monorepo for examples of module federation",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ]
+  }
+}

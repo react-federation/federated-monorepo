@@ -1,0 +1,19 @@
+.list-style {
+  margin-left: 0.5rem;
+  list-style-type: none;
+
+  li {
+    display: block;
+    margin-left: 1rem;
+    position: relative;
+
+    p {
+      display: inline;
+    }
+
+    &::before {
+      content: "✅ ";
+      top: 0;
+    }
+  }
+}

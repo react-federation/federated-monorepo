@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorFallback should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    role="alert"
+  >
+    <p>
+      Something went wrong:
+    </p>
+    <pre>
+      test error
+    </pre>
+    <pre>
+      Error: test error
+    at Object.&lt;anonymous&gt; (/Users/leonelv/code/react-remote-template/components/error-fallback/index.spec.tsx:7:58)
+    at Promise.then.completed (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/utils.js:390:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/utils.js:315:10)
+    at _callCircusTest (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:167:21)
+    at jestAdapter (/Users/leonelv/code/react-remote-template/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/leonelv/code/react-remote-template/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/leonelv/code/react-remote-template/node_modules/jest-runner/build/runTest.js:481:34)
+    at Object.worker (/Users/leonelv/code/react-remote-template/node_modules/jest-runner/build/testWorker.js:133:12)
+    </pre>
+  </div>
+</DocumentFragment>
+`;
